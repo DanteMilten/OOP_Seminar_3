@@ -7,6 +7,8 @@
 //        и расширяющие абстрактный(обобщённый) класс.
 //        В основной программе создать по одному экземпляру каждого типа персонажей.
 
+import hero.*;
+
 public class OOP_HW_1 {
     public static void main(String[] args) {
 
@@ -17,7 +19,7 @@ public class OOP_HW_1 {
         // Снайпер
         Sniper sniper = new Sniper("Zaitsev", 5, 120);
         // Колдун
-        Warlock warlock = new Warlock("Harry Potter", 5, 80);
+        Warlock warlock = new Warlock("Harry", 5, 80);
         // Копейщик
         Spearman spearman = new Spearman("Aleksandr", 5, 200);
         // Арбалетчик

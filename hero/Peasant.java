@@ -1,10 +1,12 @@
+package hero;
+
 public class Peasant extends BaseHero {
     public Peasant( String name, int strength, int health ) {
         super( name, strength, health );
     }
 
     public Peasant() {
-        super("Peasant", 1, 30);
+        super("hero.Peasant", 1, 30);
     }
 
     public void plow() {

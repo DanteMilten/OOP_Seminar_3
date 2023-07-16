@@ -1,3 +1,5 @@
+package hero;
+
 public class Rogue extends BaseHero {
     public Rogue( String name, int strength, int health ) {
         super( name, strength, health );
@@ -5,7 +7,7 @@ public class Rogue extends BaseHero {
 
 
     public Rogue() {
-        super( "Rogue", 6, 30 );
+        super( "hero.Rogue", 6, 30 );
     }
 
 
